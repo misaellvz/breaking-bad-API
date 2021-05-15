@@ -1,13 +1,90 @@
+
+@import url("//db.onlinewebfonts.com/c/62fa13c8d6a7597eef48bdd7e57de4a3?family=Heart+Breaking+Bad)");
+
+* {
+  color: white;
+  font-family: "Heart Breaking Bad", sans-serif;
+}
 body {
+  height: 100vh;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background:#177027;
+  height: 70px;
+  justify-content: space-between;
+}
+.navbar-titles {
+  margin: 20px;
+}
+.navbar-titles a {
+  margin: 10px;
+  font-size: 25px;
+  text-decoration: none;
+}
+.navbar-titles a:hover {
+  color: #172121;
+}
+
+.navbar-logo {
+  height: 60px;
+  width: 95px;
+  padding: 5px;
+  margin-left: 5px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.content img {
+  opacity: 0.9;
+
+}
+.character-card {
+  background-color: #177027;
+  opacity: 0.8;
+  width: 50%;
+  height: 500px;
+  border-radius: 10px;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+}
+.home {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #172121;
+  height: calc(100vh - 70px)
+}
+.home h1{
+  font-size: 120px;
+  font-weight: 600;
+  color: white;
+  position: absolute;
+}
+.home h2{
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+.home img {
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: calc(100vh - 70px);
+  object-fit: cover
+  ;
 }

@@ -1,11 +1,23 @@
-
-import './index.css';
+import Navbar from "./components/Navbar"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./pages/Home";
+import Character from "./pages/Character";
 
 function App() {
   return (
-    <div>
-      <h1>Hello this in my API</h1>
-    </div>
+    <Router>
+      <Navbar/>
+      <div className="content">
+        <Switch>
+          <Route exact  path="/">
+            <Home/>
+          </Route>
+          <Route exact  path="/character">
+            <Character/>
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
