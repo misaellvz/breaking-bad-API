@@ -4,6 +4,8 @@
 * {
   color: white;
   font-family: "Heart Breaking Bad", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 body {
   height: 100vh;
@@ -37,41 +39,48 @@ body {
   margin-left: 5px;
 }
 .content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-image: url("./images/breaking-bad-10-anos-de-la-metanfetamina-que-engancho-a-la-television.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 70px);
+  overflow: auto;
 }
-.content img {
-  opacity: 0.9;
+.charactersCard {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-auto-rows: 300px;
+  grid-column-gap: 20px;
+  grid-row-gap: 25px;
+  list-style: none;
+}
 
-}
 .character-card {
   background-color: #177027;
   opacity: 0.8;
-  width: 50%;
-  height: 500px;
+  box-sizing: border-box;
   border-radius: 10px;
   color: white;
-  font-size: 24px;
-  font-weight: bold;
-  position: absolute;
+  font-size: 14px;
+  font-weight: 200;
 }
 .home {
-  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #172121;
-  height: calc(100vh - 70px)
+  height: calc(100vh - 70px);
 }
+
 .home h1{
   font-size: 120px;
-  font-weight: 600;
-  color: white;
+  font-weight: 400;
   position: absolute;
+  opacity: 0.8;
+  text-decoration: none;
 }
 .home h2{
   font-size: 40px;
@@ -84,7 +93,20 @@ body {
   padding: 0;
   margin: 0 auto;
   width: 100%;
-  height: calc(100vh - 70px);
-  object-fit: cover
+  height: 100%;
+  object-fit: cover;
   ;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: 300px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  margin: 10px;
+}
+.card {
+  border-radius: 10px;
+  background-color: #177027;
+  opacity: 0.8;
 }
