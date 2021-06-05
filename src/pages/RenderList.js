@@ -2,32 +2,29 @@ import { useEffect, useState, Fragment } from "react";
 import CharactersList from "./CharactersList"
 
 const RenderList = () => {
-  const [data, setData] = useState(null);
-  const [isLoading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const initialState = { isLoading: true, error: null, data: null}
+  const [state, setState] = useState(initialState)
 
   useEffect(()=>{
-    setLoading(true)
-    setError(null)
+    setState(initialState)
     fetch("https://breakingbadapi.com/api/characters")
     .then((data)=> data.json())
     .then((characters)=> {
-      setLoading(false)
-      setData(characters)
+      setState({ isLoading: false, error: null, data: characters })
     })
     .catch((error)=> {
-      setLoading(false)
-      setError(error)
+      setState({ isLoading: false, error: null, data: null })
     })
   }, [])
   return (
     <Fragment>
-      {isLoading && <h2>Is loading...</h2>}
-      {error && <h2>{error}</h2>}
-      {data && <CharactersList data={data} />}
+      {state.isLoading && <h2>Is loading...</h2>}
+      {state.error && <h2>{state.error}</h2>}
+      {state.data && <CharactersList data={state.data} />}
     </Fragment>
     );
 }
+
 
 export default RenderList;
 

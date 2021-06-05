@@ -1,18 +1,20 @@
 
 @import url("//db.onlinewebfonts.com/c/62fa13c8d6a7597eef48bdd7e57de4a3?family=Heart+Breaking+Bad)");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 * {
-  color: white;
-  font-family: "Heart Breaking Bad", sans-serif;
   margin: 0;
   padding: 0;
 }
 body {
   height: 100vh;
   margin: 0;
+  font-family: "Quicksand";
 }
 
 .navbar {
+  color: white;
+  font-family: "Heart Breaking Bad", sans-serif;
   width: 100%;
   display: flex;
   align-items: center;
@@ -24,8 +26,9 @@ body {
   margin: 20px;
 }
 .navbar-titles a {
+  color: white;
   margin: 10px;
-  font-size: 25px;
+  font-size: 30px;
   text-decoration: none;
 }
 .navbar-titles a:hover {
@@ -39,6 +42,7 @@ body {
   margin-left: 5px;
 }
 .content {
+  color: #172121;
   background-image: url("./images/breaking-bad-10-anos-de-la-metanfetamina-que-engancho-a-la-television.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -46,27 +50,141 @@ body {
   width: 100%;
   height: calc(100vh - 70px);
   overflow: auto;
+  opacity: 0.9;
 }
 .charactersCard {
+  color: #172121;
   margin: 10px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  grid-auto-rows: 300px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: 350px;
   grid-column-gap: 20px;
   grid-row-gap: 25px;
   list-style: none;
 }
 
 .character-card {
-  background-color: #177027;
-  opacity: 0.8;
+  color: #172121;
+  background-color: #149739;
   box-sizing: border-box;
   border-radius: 10px;
   color: white;
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 200;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.character-card h1 {
+  color: #172121;
+  font-size: 22px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 180px;
+  text-align: center;
+}
+.detail-container {
+  display: flex;
+  justify-content: center;
+}
+.single-character-card h2 {
+  font-size: 36px;
+}
+.single-character-card-description-text {
+  padding: 0 160px 0 160px;
+  width: 340px;
+}
+.single-character-card-description-text p > strong {
+  font-size: 26px;
+}
+.single-character-card p {
+  font-size: 22px;
+  color: #172121;
+  font-weight: 600;
+}
+.character-card img {
+  margin: 10px;
+  width: 150px;
+  max-width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px;
+}
+.character-card a {
+  font-family: "Quicksand";
+  width: 80%;
+  font-size: 12px;
+  color: #172121;
+  height: 30px;
+  background-color: #59b32f;
+  border-radius: 10px;
+  border:1.5px solid #35382f;
+  padding: 5px 10px;
+  text-decoration: none;
+  text-align: center;
+}
+.character-card a:hover {
+  background-color: #b2ff22;
+}
+.single-charactersCard {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  background-color: #149739;
+  width: auto;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+.single-character-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.single-character-card button {
+  width: 20px;
+  height: 50px;
+  font-size: 15px;
+  font-family: "Quicksand";
+}
+.single-character-card button:hover {
+  background-color: #b2ff22;
+}
+.single-character-card p {
+  text-align: left;
+  word-spacing: 10px;
+  vertical-align: 30px;
+}
+.single-character-card-img {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  margin: 30px;
+}
+.buttons {
+  width: 70%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons button {
+  width: 80px;
+  border-radius: 10px;
+  border: #b2ff22;
+  margin: 15px;
+  font-weight: bold;
+  font-size: large;
 }
 .home {
+  color: white;
+  font-family: "Heart Breaking Bad", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -76,7 +194,7 @@ body {
 }
 
 .home h1{
-  font-size: 120px;
+  font-size: 150px;
   font-weight: 400;
   position: absolute;
   opacity: 0.8;
@@ -109,4 +227,9 @@ body {
   border-radius: 10px;
   background-color: #177027;
   opacity: 0.8;
+}
+.Loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

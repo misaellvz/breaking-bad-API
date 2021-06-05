@@ -3,8 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 // import Character from "./pages/useState";
 import RenderList from "./pages/RenderList";
-import Grid from "./pages/Grid";
-import SingleCharacter from "./pages/SingleCharacter";
+import RenderSingleCharacter from "./pages/RenderSingleCharacter";
 
 function App() {
   return (
@@ -18,12 +17,12 @@ function App() {
           <Route exact  path="/characters">
             <RenderList/>
           </Route>
-          <Route exact  path="/character">
-            <SingleCharacter/>
+          <Route exact  path="/characters/:id">
+            <RenderSingleCharacter/>
           </Route>
-          <Route exact  path="/grid">
+          {/* <Route exact  path="/grid">
             <Grid/>
-          </Route>
+          </Route> */}
         </Switch>
       </div>
     </Router>
