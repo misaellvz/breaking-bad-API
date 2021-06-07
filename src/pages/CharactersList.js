@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "../styles/StylesComponents/CharacterList.css";
 
 const CharactersList = ({data}) => {
   return (

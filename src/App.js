@@ -1,9 +1,8 @@
 import Navbar from "./components/Navbar"
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
-// import Character from "./pages/useState";
-import RenderList from "./pages/RenderList";
-import RenderSingleCharacter from "./pages/RenderSingleCharacter";
+import RenderList from "./components/RenderList";
+import RenderSingleCharacter from "./components/RenderSingleCharacter";
 
 function App() {
   return (
@@ -20,9 +19,6 @@ function App() {
           <Route exact  path="/characters/:id">
             <RenderSingleCharacter/>
           </Route>
-          {/* <Route exact  path="/grid">
-            <Grid/>
-          </Route> */}
         </Switch>
       </div>
     </Router>

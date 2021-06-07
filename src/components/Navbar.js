@@ -1,7 +1,7 @@
 import logo from "../images/breaking-bad.png"
 import "../index.css";
 import { Link } from "react-router-dom";
-import "../styles/Navbar.css";
+import "../styles/StylesComponents/Navbar.css";
 
 const Navbar = () => {
   return (

@@ -1,6 +1,5 @@
-
+import "../styles/StylesComponents/Home.css";
 import jessyAndWalter from "../images/Jessy and Walter.jpg";
-import "../index.css"
 
 const Home = () => {
   return (
