@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/breaking-bad-API/static/css/main.3aad81ee.chunk.css",
-    "main.js": "/breaking-bad-API/static/js/main.ba046bec.chunk.js",
-    "main.js.map": "/breaking-bad-API/static/js/main.ba046bec.chunk.js.map",
-    "runtime-main.js": "/breaking-bad-API/static/js/runtime-main.b7d3575b.js",
-    "runtime-main.js.map": "/breaking-bad-API/static/js/runtime-main.b7d3575b.js.map",
-    "static/js/2.eec117b7.chunk.js": "/breaking-bad-API/static/js/2.eec117b7.chunk.js",
-    "static/js/2.eec117b7.chunk.js.map": "/breaking-bad-API/static/js/2.eec117b7.chunk.js.map",
-    "index.html": "/breaking-bad-API/index.html",
-    "static/css/main.3aad81ee.chunk.css.map": "/breaking-bad-API/static/css/main.3aad81ee.chunk.css.map",
-    "static/js/2.eec117b7.chunk.js.LICENSE.txt": "/breaking-bad-API/static/js/2.eec117b7.chunk.js.LICENSE.txt",
-    "static/media/Jessy and Walter.4b1be486.jpg": "/breaking-bad-API/static/media/Jessy and Walter.4b1be486.jpg",
-    "static/media/index.css": "/breaking-bad-API/static/media/breaking-bad-10-anos-de-la-metanfetamina-que-engancho-a-la-television.c44713f5.jpg",
-    "static/media/breaking-bad.b4de6e8a.png": "/breaking-bad-API/static/media/breaking-bad.b4de6e8a.png"
+    "main.css": "https://misaellvz.github.io/breaking-bad-API/static/css/main.e032de15.chunk.css",
+    "main.js": "https://misaellvz.github.io/breaking-bad-API/static/js/main.ba046bec.chunk.js",
+    "main.js.map": "https://misaellvz.github.io/breaking-bad-API/static/js/main.ba046bec.chunk.js.map",
+    "runtime-main.js": "https://misaellvz.github.io/breaking-bad-API/static/js/runtime-main.adce4c90.js",
+    "runtime-main.js.map": "https://misaellvz.github.io/breaking-bad-API/static/js/runtime-main.adce4c90.js.map",
+    "static/js/2.eec117b7.chunk.js": "https://misaellvz.github.io/breaking-bad-API/static/js/2.eec117b7.chunk.js",
+    "static/js/2.eec117b7.chunk.js.map": "https://misaellvz.github.io/breaking-bad-API/static/js/2.eec117b7.chunk.js.map",
+    "index.html": "https://misaellvz.github.io/breaking-bad-API/index.html",
+    "static/css/main.e032de15.chunk.css.map": "https://misaellvz.github.io/breaking-bad-API/static/css/main.e032de15.chunk.css.map",
+    "static/js/2.eec117b7.chunk.js.LICENSE.txt": "https://misaellvz.github.io/breaking-bad-API/static/js/2.eec117b7.chunk.js.LICENSE.txt",
+    "static/media/Jessy and Walter.4b1be486.jpg": "https://misaellvz.github.io/breaking-bad-API/static/media/Jessy and Walter.4b1be486.jpg",
+    "static/media/index.css": "https://misaellvz.github.io/breaking-bad-API/static/media/breaking-bad-10-anos-de-la-metanfetamina-que-engancho-a-la-television.c44713f5.jpg",
+    "static/media/breaking-bad.b4de6e8a.png": "https://misaellvz.github.io/breaking-bad-API/static/media/breaking-bad.b4de6e8a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b7d3575b.js",
+    "static/js/runtime-main.adce4c90.js",
     "static/js/2.eec117b7.chunk.js",
-    "static/css/main.3aad81ee.chunk.css",
+    "static/css/main.e032de15.chunk.css",
     "static/js/main.ba046bec.chunk.js"
   ]
 }
