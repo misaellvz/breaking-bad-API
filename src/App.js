@@ -1,12 +1,12 @@
 import Navbar from "./components/Navbar"
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import RenderList from "./components/RenderList";
 import RenderSingleCharacter from "./components/RenderSingleCharacter";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/breaking-bad-API">
       <Navbar/>
       <div className="content">
         <Switch>
@@ -21,7 +21,7 @@ function App() {
           </Route>
         </Switch>
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
