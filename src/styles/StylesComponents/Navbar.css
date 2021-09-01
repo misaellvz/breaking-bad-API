@@ -1,0 +1,30 @@
+
+.navbar {
+  color: white;
+  font-family: "Heart Breaking Bad", sans-serif;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background:#177027;
+  height: 70px;
+  justify-content: space-between;
+}
+.navbar-titles {
+  margin: 20px;
+}
+.navbar-titles a {
+  color: white;
+  margin: 10px;
+  font-size: 30px;
+  text-decoration: none;
+}
+.navbar-titles a:hover {
+  color: #172121;
+}
+
+.navbar-logo {
+  height: 60px;
+  width: 95px;
+  padding: 5px;
+  margin-left: 5px;
+}

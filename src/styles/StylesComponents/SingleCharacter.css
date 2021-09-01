@@ -1,0 +1,74 @@
+
+.detail-container {
+  display: flex;
+  justify-content: center;
+}
+
+.single-charactersCard {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  background-color: #149739;
+  width: auto;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+.single-character-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.single-character-card h2 {
+  font-size: 36px;
+}
+
+.single-character-card button {
+  width: 20px;
+  height: 50px;
+  font-size: 15px;
+  font-family: "Quicksand";
+}
+.single-character-card button:hover {
+  background-color: #b2ff22;
+}
+.single-character-card p {
+  text-align: left;
+  word-spacing: 10px;
+  vertical-align: 30px;
+}
+.single-character-card-img {
+  width: 350px;
+  height: auto;
+  border-radius: 10px;
+  margin: 30px;
+}
+.single-character-card-description-text {
+  padding: 0 160px 0 160px;
+  width: 340px;
+}
+.single-character-card-description-text p > strong {
+  font-size: 26px;
+}
+.single-character-card p {
+  font-size: 22px;
+  color: #172121;
+  font-weight: 600;
+}
+.buttons {
+  width: 70%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons button {
+  width: 80px;
+  border-radius: 10px;
+  border: #b2ff22;
+  margin: 15px;
+  font-weight: bold;
+  font-size: large;
+}

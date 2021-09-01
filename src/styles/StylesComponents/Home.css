@@ -1,0 +1,34 @@
+
+.home {
+  color: white;
+  font-family: "Heart Breaking Bad", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #172121;
+  height: calc(100vh - 70px);
+}
+
+.home h1{
+  font-size: 150px;
+  font-weight: 400;
+  position: absolute;
+  opacity: 0.8;
+  text-decoration: none;
+}
+.home h2{
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+.home img {
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  ;
+}
